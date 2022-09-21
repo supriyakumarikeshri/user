@@ -44,3 +44,21 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+In this application, everything is done from ui side, no apis has been used
+
+Technology Used
+1.React
+2.Redux
+3.Typescript
+4.Scss
+
+Functionality:-
+1. Register User
+2. Login with registered User
+3. Filter User By name
+4. Sort user By name
+5. Delete user
+6. Logout 

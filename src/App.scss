@@ -1,5 +1,17 @@
+body {
+  background: #b391b3;
+}
+
 .App {
   text-align: center;
+}
+
+* {
+
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
 }
 
 .App-logo {
@@ -32,7 +44,33 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.App {
+
+  .login-register {
+    background: white;
+    box-shadow: 0 0 5px;
+    width: 800px;
+
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+
+    .login {
+      flex: 50%;
+
+
+
+    }
+
+    .register {
+      flex: 50%;
+    }
+  }
+
 }

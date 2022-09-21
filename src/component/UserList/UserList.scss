@@ -1,0 +1,147 @@
+.user-list {
+    .logout-div {
+        // float: right;
+        // /* line-height: 30px; */
+        // margin-top: 6px;
+        position: relative;
+
+        .logout {
+            padding: 8px;
+            /* border: 2px solid grey; */
+            border-radius: 18px;
+            width: 120px;
+            color: white;
+            background: rgb(70 12 70);
+            /* outline: unset; */
+            border: none;
+            cursor: pointer;
+            right: 0;
+            position: absolute;
+            top: -28px;
+
+        }
+    }
+
+
+    .div1 {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        color: rgb(70, 12, 70);
+
+        .div2 {
+
+            max-width: 1005px;
+
+            overflow: auto;
+            max-height: 120px;
+
+            th {
+                position: sticky;
+                top: 0px;
+                background: white;
+
+                img {
+                    width: 11px;
+                    padding: -5px;
+                    cursor: pointer;
+                    vertical-align: middle;
+                }
+            }
+
+            td,
+            th {
+
+                text-align: left;
+                border-bottom: 1px solid #eee;
+                padding: 2px;
+
+            }
+
+            td:nth-child(1) {
+                width: 60px;
+                min-width: 60px;
+            }
+
+            th:nth-child(1) {
+                width: 60px;
+                min-width: 60px;
+            }
+
+            td:nth-child(2) {
+                width: 60px;
+                min-width: 60px;
+            }
+
+            th:nth-child(2) {
+                width: 60px;
+                min-width: 60px;
+            }
+
+            td:nth-child(3) {
+                width: 300px;
+                min-width: 300px;
+            }
+
+            th:nth-child(3) {
+                width: 300px;
+                min-width: 300px;
+            }
+
+            td:nth-child(4) {
+                width: 140px;
+                min-width: 140px;
+            }
+
+            th:nth-child(4) {
+                width: 140px;
+                min-width: 140px;
+            }
+
+            td:nth-child(5) {
+                width: 140px;
+                min-width: 140px;
+            }
+
+            th:nth-child(5) {
+                width: 140px;
+                min-width: 140px;
+            }
+
+            td:nth-child(6) {
+                width: 140px;
+                min-width: 140px;
+            }
+
+            th:nth-child(6) {
+                width: 140px;
+                min-width: 140px;
+            }
+
+            td:nth-child(7) {
+                width: 140px;
+                min-width: 140px;
+            }
+
+            th:nth-child(7) {
+                width: 140px;
+                min-width: 140px;
+            }
+        }
+    }
+
+    .filter-div {
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+        .filter {
+            padding: 11px;
+            width: 458px;
+
+            border: 1px solid grey;
+            border-radius: 16px;
+        }
+    }
+
+}

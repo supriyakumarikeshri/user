@@ -1,0 +1,31 @@
+.login-div {
+    h2 {
+        color: rgb(70, 12, 70);
+        padding: 20px;
+    }
+
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .box {
+            padding: 12px;
+            margin: 10px;
+            outline: none;
+            border: 1px solid grey;
+            width: 65%;
+            border-radius: 8px;
+        }
+
+        .login-btn {
+            padding: 10px;
+            width: 65%;
+            margin: 10px;
+            cursor: pointer;
+            background-color: rgb(70, 12, 70);
+            color: white;
+            font-weight: 600;
+        }
+    }
+}
